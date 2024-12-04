@@ -23,7 +23,7 @@ void* runner(void* arg) {
 
     // Simula o tempo de corrida
     for (int i = 1; i <= 3; i++) {
-        sleep(rand() % 3 + 1); // Tempo aleatório entre 1 e 3 segundos por "volta"
+        //sleep(rand() % 3 + 1);  Tempo aleatório entre 1 e 3 segundos por "volta" para ter uma diferença de tempo mais notavel nos resultados
         printf("Corredor %d completou a volta %d.\n", id, i);
     }
     
